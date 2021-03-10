@@ -9,13 +9,13 @@ import Foundation
 
 class CurrentWeatherObject {
     
-    var sunrise: Int = 0
-    var sunset: Int = 0
+    var sunrise: String = ""
+    var sunset: String = ""
     var temp: Double = 0.0
     var pressure: Int = 0
     var humidity: Int = 0
     var clouds: Int = 0
-    var visibility: Int = 0
+    var description = ""
     var windSpeed: Double = 0.0
     var id: Int = 0
     
