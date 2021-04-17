@@ -14,6 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let appearence = UINavigationBarAppearance()
+        appearence.configureWithTransparentBackground()
+        appearence.backgroundColor = .systemBlue
+        UINavigationBar.appearance().standardAppearance = appearence
+        
         return true
     }
 

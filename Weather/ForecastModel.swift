@@ -9,11 +9,12 @@ import Foundation
 
 struct ForecastModel {
     
-    let iconID = 0
-    let pressure = 0
-    let description: String = ""
-    let temp: Double = 0.0
-    let humidity: Int = 0
-    let dayOfWeek: String = ""
+    var iconID = [Int]()
+    var pressure = [Int]()
+    var description = [String]()
+    var minTemp = [Double]()
+    var maxTemp = [Double]()
+    var humidity = [Int]()
+    var dayOfWeek = [String]()
     
 }
